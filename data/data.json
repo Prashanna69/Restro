@@ -2,44 +2,44 @@
   "Menu": [
     {
       "id": 1,
-      "image": "https://img.freepik.com/free-photo/indian-condiments-with-copy-space-view_23-2148723492.jpg?size=626&ext=jpg&ga=GA1.2.627066378.1692263223&semt=ais",
-      "name": "Khana Platter",
-      "Price": "Rs 800",
+      "image": "https://img.freepik.com/premium-photo/food-photography_841014-8174.jpg?size=626&ext=jpg&ga=GA1.1.627066378.1692263223&semt=ais",
+      "name": "Non-Veg Platter",
+      "Price": "Rs 1300",
       "Recipe": ""
     },
     {
       "id": 2,
-      "image": "https://img.freepik.com/free-photo/indian-condiments-with-copy-space-view_23-2148723492.jpg?size=626&ext=jpg&ga=GA1.2.627066378.1692263223&semt=ais",
-      "name": "Khana Platter",
-      "Price": "Rs 800",
+      "image": "https://img.freepik.com/premium-photo/food-photography_841014-8181.jpg",
+      "name": "Cheese Cake",
+      "Price": "Rs 600",
       "Recipe": ""
     },
     {
       "id": 3,
-      "image": "https://img.freepik.com/free-photo/indian-condiments-with-copy-space-view_23-2148723492.jpg?size=626&ext=jpg&ga=GA1.2.627066378.1692263223&semt=ais",
-      "name": "Khana Platter",
-      "Price": "Rs 800",
+      "image": "https://img.freepik.com/premium-photo/indian-lunch-dinner-main-course-food-group-includes-paneer-butter-masala-dal-makhani-palak-paneer-roti-rice-etc-selective-focus_466689-6854.jpg?size=626&ext=jpg&ga=GA1.1.627066378.1692263223&semt=ais",
+      "name": "Veg Platter",
+      "Price": "Rs 900",
       "Recipe": ""
     },
     {
       "id": 4,
-      "image": "https://img.freepik.com/free-photo/indian-condiments-with-copy-space-view_23-2148723492.jpg?size=626&ext=jpg&ga=GA1.2.627066378.1692263223&semt=ais",
-      "name": "Khana Platter",
-      "Price": "Rs 800",
+      "image": "https://img.freepik.com/free-photo/close-up-delicious-asian-food_23-2150535858.jpg",
+      "name": "Salad",
+      "Price": "Rs 400",
       "Recipe": ""
     },
     {
       "id": 5,
-      "image": "https://img.freepik.com/free-photo/indian-condiments-with-copy-space-view_23-2148723492.jpg?size=626&ext=jpg&ga=GA1.2.627066378.1692263223&semt=ais",
-      "name": "Khana Platter",
-      "Price": "Rs 800",
+      "image": "https://img.freepik.com/free-photo/close-up-delicious-asian-food_23-2150535862.jpg",
+      "name": "Spicy Shrimp",
+      "Price": "Rs 1200",
       "Recipe": ""
     },
     {
       "id": 6,
-      "image": "https://img.freepik.com/free-photo/indian-condiments-with-copy-space-view_23-2148723492.jpg?size=626&ext=jpg&ga=GA1.2.627066378.1692263223&semt=ais",
-      "name": "Khana Platter",
-      "Price": "Rs 800",
+      "image": "https://img.freepik.com/free-photo/delicious-pasta-plate_23-2150690743.jpg",
+      "name": "Noodles",
+      "Price": "Rs 700",
       "Recipe": ""
     }
   ]

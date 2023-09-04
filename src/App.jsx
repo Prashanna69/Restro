@@ -6,11 +6,12 @@ import {
 } from "react-router-dom";
 import RootLayout from "./Layout/RootLayout";
 import Main from "./Page/main";
+import { menuLoader } from "./Components/MenuCard";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
-      <Route index element={<Main />} />
+      <Route index element={<Main />} loader={menuLoader} />
     </Route>
   )
 );

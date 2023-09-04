@@ -17,7 +17,7 @@ export default function Main() {
         <Text fontSize="4rem" color="wheat" fontWeight="500">
           Your Restaurant
         </Text>
-        <Button colorScheme="red" maxW="10rem">
+        <Button colorScheme="orange" maxW="10rem">
           Order now
         </Button>
       </Box>
