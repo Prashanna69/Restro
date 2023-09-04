@@ -13,7 +13,6 @@ export default function Main() {
         alignItems="center"
         fontFamily="Courier New"
         p="2rem"
-        boxShadow="inset 0px -20px 10px black"
       >
         <Text fontSize="4rem" color="wheat" fontWeight="500">
           Your Restaurant
