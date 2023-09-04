@@ -1,4 +1,5 @@
 import { Box, SimpleGrid, Text } from "@chakra-ui/react";
+import MenuCard from "../Components/MenuCard";
 
 export default function Menu() {
   return (
@@ -8,7 +9,7 @@ export default function Menu() {
           Menu
         </Text>
         <SimpleGrid templateColumns="repeat(4,1fr)" gap="1rem" p="2rem">
-          <Box height="20rem" w="15rem" bg="black"></Box>
+          <MenuCard />
           <Box height="20rem" w="15rem" bg="black"></Box>
           <Box height="20rem" w="15rem" bg="black"></Box>
           <Box height="20rem" w="15rem" bg="black"></Box>
