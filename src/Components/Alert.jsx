@@ -21,9 +21,6 @@ export default function Alert() {
   const cancelRef = React.useRef();
   return (
     <>
-      <Button colorScheme="orange" onClick={onOpen}>
-        Checkout
-      </Button>
       <AlertDialog
         isOpen={isOpen}
         leastDestructiveRef={cancelRef}

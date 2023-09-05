@@ -1,6 +1,5 @@
 import { Box, SimpleGrid, Text } from "@chakra-ui/react";
 import MenuCard from "../Components/MenuCard";
-import { useLoaderData } from "react-router-dom";
 
 export default function Menu() {
   return (
@@ -14,7 +13,7 @@ export default function Menu() {
         >
           Menu
         </Text>
-        <SimpleGrid templateColumns="repeat(4,1fr)" gap="1rem" p="2rem">
+        <SimpleGrid column={3} minChildWidth={300} spacing={10} p="2rem">
           <MenuCard />
         </SimpleGrid>
       </Box>

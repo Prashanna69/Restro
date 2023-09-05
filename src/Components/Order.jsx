@@ -18,6 +18,7 @@ import React from "react";
 import { CiShoppingCart } from "react-icons/ci";
 
 import Alert from "./Alert";
+import { NavLink } from "react-router-dom";
 
 export default function Order() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -53,7 +54,9 @@ export default function Order() {
                 <Button colorScheme="whiteAlpha" onClick={onClose}>
                   Cancel
                 </Button>
-                <Alert />
+                <NavLink to="/Checkout">
+                  <Button colorScheme="orange">Checkout</Button>
+                </NavLink>
               </HStack>
             </Flex>
           </DrawerFooter>

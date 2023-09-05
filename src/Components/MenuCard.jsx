@@ -20,7 +20,8 @@ export default function MenuCard() {
         <Card
           key={menus.id}
           bg="#1f1f1f"
-          _hover={{ bg: "#3f1f1f", transition: "0.4s" }}
+          _hover={{ bg: "#3f1f1f", transition: "0.7s" }}
+          maxW="20rem"
         >
           <CardBody>
             <Image src={menus?.image} alt={menus.name} />
