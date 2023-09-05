@@ -14,8 +14,8 @@ import Checkout from "./Page/Checkout";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route path="/Checkout" element={<Checkout />} />
       <Route path="/" element={<RootLayout />}>
+        <Route path="/Checkout" element={<Checkout />} />
         <Route index element={<Main />} loader={menuLoader} />
         <Route path="/Detail" element={<Detail />} />
       </Route>

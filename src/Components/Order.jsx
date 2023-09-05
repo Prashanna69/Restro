@@ -55,7 +55,9 @@ export default function Order() {
                   Cancel
                 </Button>
                 <NavLink to="/Checkout">
-                  <Button colorScheme="orange">Checkout</Button>
+                  <Button colorScheme="orange" onClick={onClose}>
+                    Checkout
+                  </Button>
                 </NavLink>
               </HStack>
             </Flex>
