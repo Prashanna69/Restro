@@ -10,6 +10,9 @@ import Main from "./Page/main";
 import Detail from "./Page/Detail";
 import { menuLoader } from "./Components/MenuCard";
 import Checkout from "./Page/Checkout";
+import Recipe from "./Page/Recipe";
+import Offer from "./Page/Offer";
+import Contact from "./Page/Contact";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -18,6 +21,9 @@ const router = createBrowserRouter(
         <Route path="/Checkout" element={<Checkout />} />
         <Route index element={<Main />} loader={menuLoader} />
         <Route path="/Detail" element={<Detail />} />
+        <Route path="/Recipe" element={<Recipe />} />
+        <Route path="/Offer" element={<Offer />} />
+        <Route path="/Contact" element={<Contact />} />
       </Route>
     </>
   )

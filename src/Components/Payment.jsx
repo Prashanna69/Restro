@@ -12,8 +12,10 @@ export default function Payment() {
   const openLink = () => {
     if (value === "1") {
       window.open("https://web.khalti.com/#/", "_blank");
-    } else {
+    } else if (value === "2") {
       window.open("https://merchant.esewa.com.np/auth/login", "_blank");
+    } else {
+      return error("Please select your payment method");
     }
   };
   return (
@@ -27,7 +29,7 @@ export default function Payment() {
           minH="5rem"
           minW="5rem"
           borderRadius="1rem"
-          _focus={{ border: "1px solid orange" }}
+          _focus={{ border: "5px solid orange" }}
           cursor="pointer"
           variant="unstyled"
         ></Button>
@@ -38,7 +40,7 @@ export default function Payment() {
           minH="5rem"
           minW="5rem"
           borderRadius="1rem"
-          _focus={{ border: "1px solid orange" }}
+          _focus={{ border: "5px solid orange" }}
           cursor="pointer"
           bgPos="center"
           bgSize="cover"

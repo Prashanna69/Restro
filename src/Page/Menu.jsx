@@ -4,7 +4,7 @@ import MenuCard from "../Components/MenuCard";
 export default function Menu() {
   return (
     <Box bg="#111" minH="100vh" p=" 2rem 3rem">
-      <Box bg="#4b4b4b" minH="100vh" borderRadius="2rem">
+      <Box bg="#4b4b4b" minH="100vh" borderRadius="1rem">
         <Text
           display="flex"
           justifyContent="center"

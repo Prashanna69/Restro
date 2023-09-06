@@ -14,6 +14,9 @@ import { CiSearch, CiShoppingCart } from "react-icons/ci";
 import Main from "../Page/main";
 import { NavLink } from "react-router-dom";
 import Order from "./Order";
+import Recipe from "../Page/Recipe";
+import Offer from "../Page/Offer";
+import Contact from "../Page/Contact";
 
 export default function NavbarItem() {
   return (
@@ -30,9 +33,15 @@ export default function NavbarItem() {
             <NavLink to="/" element={<Main />}>
               <Tab>Menu</Tab>
             </NavLink>
-            <Tab>Offer</Tab>
-            <Tab>Recipe</Tab>
-            <Tab>Contact</Tab>
+            <NavLink to="/Offer" element={<Offer />}>
+              <Tab>Offer</Tab>
+            </NavLink>
+            <NavLink to="/Recipe" element={<Recipe />}>
+              <Tab>Recipe</Tab>
+            </NavLink>
+            <NavLink to="/Contact" element={<Contact />}>
+              <Tab>Contact us</Tab>
+            </NavLink>
           </HStack>
         </TabList>
       </Tabs>
@@ -48,6 +57,7 @@ export default function NavbarItem() {
             color="white"
             border="none"
             borderRadius="2rem"
+            bg="#111"
           />
         </InputGroup>
         <Order />
