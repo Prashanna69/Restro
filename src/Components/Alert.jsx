@@ -16,7 +16,7 @@ import { useDisclosure } from "@chakra-ui/react";
 
 import React from "react";
 
-export default function Alert({ isOpen, onClose }) {
+export default function Alert() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const cancelRef = React.useRef();
   return (
