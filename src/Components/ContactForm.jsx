@@ -61,6 +61,7 @@ export default function ContactForm() {
               value={formik.values.sub}
             />
             <Textarea
+              resize="none"
               required
               id="msg"
               placeholder="Message"

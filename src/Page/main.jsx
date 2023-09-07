@@ -1,5 +1,5 @@
 import { Box, Button, Flex, Text } from "@chakra-ui/react";
-import Menu from "./Menu";
+import Menu from "./Home";
 
 export default function Main() {
   return (
@@ -17,7 +17,7 @@ export default function Main() {
         <Text fontSize="4rem" color="wheat" fontWeight="500">
           Your Restaurant
         </Text>
-        <Button colorScheme="orange" maxW="10rem">
+        <Button colorScheme="orange" maxW="10rem" borderRadius="2rem">
           Order now
         </Button>
       </Box>
