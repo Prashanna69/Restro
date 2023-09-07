@@ -1,5 +1,6 @@
 import { Box, Button, Flex, Text } from "@chakra-ui/react";
-import Menu from "./Home";
+import Home from "./Home";
+import Offer from "../Components/offer";
 
 export default function Main() {
   return (
@@ -21,7 +22,8 @@ export default function Main() {
           Order now
         </Button>
       </Box>
-      <Menu />
+      <Offer />
+      <Home />
     </>
   );
 }
