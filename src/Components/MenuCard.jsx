@@ -21,24 +21,31 @@ export default function MenuCard() {
           key={menus.id}
           bg="#1f1f1f"
           _hover={{ bg: "#3f1f1f", transition: "0.7s" }}
-          maxW="20rem"
+          maxW="17rem"
         >
-          <CardBody>
-            <Image src={menus?.image} alt={menus.name} />
-            <Text fontSize="xl" color="white" mt="1rem">
+          <Image
+            src={menus?.image}
+            alt={menus.name}
+            maxH="10rem"
+            minW="10rem"
+            objectFit="cover"
+            borderRadius="1rem"
+          />
+          <CardBody maxH="20rem">
+            <Text fontSize="l" color="white">
               {menus.name}
             </Text>
-            <Text color="white" mt="0.5rem">
+            <Text fontSize="sm" color="white" mt="0.5rem">
               {menus.Price}
             </Text>
           </CardBody>
           <Divider color="white" />
           <CardFooter>
             <HStack spacing="10px">
-              <Button colorScheme="whiteAlpha" borderRadius="2rem">
+              <Button size="sm" colorScheme="whiteAlpha" borderRadius="2rem">
                 View
               </Button>
-              <Button colorScheme="orange" borderRadius="2rem">
+              <Button size="sm" colorScheme="orange" borderRadius="2rem">
                 Add to Cart
               </Button>
             </HStack>

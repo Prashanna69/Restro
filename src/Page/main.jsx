@@ -2,6 +2,7 @@ import { Box, Button, Flex, Text } from "@chakra-ui/react";
 import Home from "./Home";
 import Offer from "../Components/offer";
 import About from "../Components/About";
+import Footer from "../Components/Footer";
 
 export default function Main() {
   return (
@@ -17,15 +18,15 @@ export default function Main() {
         p="2rem"
       >
         <Text fontSize="4rem" color="wheat" fontWeight="500">
-          Your Restaurant
+          Savory Haven Bistro
         </Text>
         <Button colorScheme="orange" maxW="10rem" borderRadius="2rem">
           Order now
         </Button>
       </Box>
-      <Offer />
-      <About />
       <Home />
+      <About />
+      <Footer />
     </>
   );
 }

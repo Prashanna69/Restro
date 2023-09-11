@@ -34,13 +34,6 @@
       "name": "Spicy Shrimp",
       "Price": "Rs 1200",
       "Recipe": ""
-    },
-    {
-      "id": 6,
-      "image": "https://img.freepik.com/free-photo/delicious-pasta-plate_23-2150690743.jpg",
-      "name": "Noodles",
-      "Price": "Rs 700",
-      "Recipe": ""
     }
   ]
 }
