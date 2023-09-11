@@ -15,10 +15,10 @@ export default function Offer() {
         Best Selling
       </Heading>
       <SimpleGrid columns={2} spacing={5} mt={5}>
-        <Box minH="7rem" bg="#111" />
-        <Box minH="7rem" bg="#111" />
-        <Box minH="7rem" bg="#111" />
-        <Box minH="7rem" bg="#111" />
+        <Box minH="7rem" maxW="5rem" bg="red" />
+        <Box minH="7rem" bg="red" />
+        <Box minH="7rem" bg="red" />
+        <Box minH="7rem" bg="red" />
       </SimpleGrid>
     </Box>
   );

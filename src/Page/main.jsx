@@ -1,6 +1,7 @@
 import { Box, Button, Flex, Text } from "@chakra-ui/react";
 import Home from "./Home";
 import Offer from "../Components/offer";
+import About from "../Components/About";
 
 export default function Main() {
   return (
@@ -23,6 +24,7 @@ export default function Main() {
         </Button>
       </Box>
       <Offer />
+      <About />
       <Home />
     </>
   );

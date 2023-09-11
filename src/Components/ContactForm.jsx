@@ -10,13 +10,10 @@ export default function ContactForm() {
       sub: "",
       msg: "",
     },
-    // onSubmit: async (values, { resetForm }) => {
-    //   await new Promise((r) => setTimeout(r, 500));
-
-    //   resetForm();
-    // },
-    onSubmit: (data) => {
-      console.log(data);
+    onSubmit: async (values, { resetForm }) => {
+      await new Promise((r) => setTimeout(r, 500));
+      alert(JSON.stringify(values, null, 2));
+      resetForm();
     },
   });
   return (

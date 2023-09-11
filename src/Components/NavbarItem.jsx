@@ -55,7 +55,11 @@ export default function NavbarItem() {
           />
         </InputGroup>
         <Order />
-        <Avatar mt="1rem" size="sm" />
+        <Avatar
+          mt="1rem"
+          size="sm"
+          src="https://img.freepik.com/premium-photo/minimalist-man-vector-art-illustration_950558-10765.jpg?size=626&ext=jpg&ga=GA1.2.627066378.1692263223&semt=ais"
+        />
       </HStack>
     </>
   );
