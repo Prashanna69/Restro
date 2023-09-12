@@ -8,12 +8,7 @@ export default function Footer() {
           templateColumns="repeat(4,1fr)"
           spacing="2rem"
           p="2rem 4rem"
-        >
-          <Box minH="100vh" bg="red" />
-          <Box minH="100vh" bg="red" />
-          <Box minH="100vh" bg="red" />
-          <Box minH="100vh" bg="red" />
-        </SimpleGrid>
+        ></SimpleGrid>
       </Box>
     </>
   );

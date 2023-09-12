@@ -1,6 +1,6 @@
 import { Box, Button, Flex, Text } from "@chakra-ui/react";
 import Home from "./Home";
-import Offer from "../Components/offer";
+
 import About from "../Components/About";
 import Footer from "../Components/Footer";
 
