@@ -10,14 +10,14 @@ import {
 } from "@chakra-ui/react";
 import { useState } from "react";
 export default function Description() {
-  const [value, setValue] = useState(0);
+  const [value, setValue] = useState(1);
 
   function handleAddition() {
     setValue(value + 1);
   }
   function handleSub() {
-    if (value < 0 || value == 0) {
-      return setValue(0);
+    if (value < 1 || value == 1) {
+      return setValue(1);
     } else {
       return setValue(value - 1);
     }

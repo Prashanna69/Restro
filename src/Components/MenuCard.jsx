@@ -8,7 +8,8 @@ import {
   Image,
   Text,
 } from "@chakra-ui/react";
-import { useLoaderData } from "react-router-dom";
+import { NavLink, useLoaderData } from "react-router-dom";
+import Detail from "../Page/Detail";
 
 export default function MenuCard() {
   const menu = useLoaderData();
@@ -42,9 +43,11 @@ export default function MenuCard() {
           <Divider color="white" />
           <CardFooter>
             <HStack spacing="10px">
-              <Button size="sm" colorScheme="whiteAlpha" borderRadius="2rem">
-                View
-              </Button>
+              <NavLink to="/detail" element={<Detail />}>
+                <Button size="sm" colorScheme="whiteAlpha" borderRadius="2rem">
+                  View
+                </Button>
+              </NavLink>
               <Button size="sm" colorScheme="orange" borderRadius="2rem">
                 Add to Cart
               </Button>

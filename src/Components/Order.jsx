@@ -44,7 +44,7 @@ export default function Order() {
           <DrawerCloseButton />
           <DrawerHeader as="h2">Your order</DrawerHeader>
           <DrawerBody>
-            <Text>Your Purchases:</Text>
+            <Text>Your Cart:</Text>
           </DrawerBody>
           <Divider />
           <DrawerFooter>
