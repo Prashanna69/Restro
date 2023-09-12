@@ -2,6 +2,8 @@ import { Box, Flex } from "@chakra-ui/react";
 
 import NavbarItem from "./NavbarItem";
 
+import { CiWheat } from "react-icons/ci";
+
 export default function Navbar() {
   return (
     <>
@@ -13,7 +15,11 @@ export default function Navbar() {
         zIndex="99"
         boxShadow="0px 0px 20px 10px black"
       >
-        <Flex align="center" justify="flex-start" ml="5rem">
+        <Flex align="center" justify="flex-start">
+          <CiWheat
+            color="white"
+            style={{ height: "4rem", width: "4rem", marginTop: "0.5rem" }}
+          />
           <NavbarItem />
         </Flex>
       </Box>

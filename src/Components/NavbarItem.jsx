@@ -26,6 +26,7 @@ export default function NavbarItem() {
         color="White"
         mt="1rem"
         variant="solid-rounded"
+        ml="2rem"
       >
         <TabList>
           <HStack spacing="30px">
