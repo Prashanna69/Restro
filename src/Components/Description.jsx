@@ -3,8 +3,6 @@ import {
   Image,
   Flex,
   Box,
-  List,
-  ListItem,
   Button,
   Input,
   Text,
