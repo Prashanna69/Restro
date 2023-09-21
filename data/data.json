@@ -3,37 +3,42 @@
     {
       "id": 1,
       "image": "https://img.freepik.com/premium-photo/food-photography_841014-8174.jpg?size=626&ext=jpg&ga=GA1.1.627066378.1692263223&semt=ais",
-      "name": "Non-Veg Platter",
+      "name": "Exquisite Non-Veg Platter",
       "Price": "Rs 1300",
-      "Recipe": ""
+      "Recipe": "",
+      "Desc": "Dive into a world of savory delights with our Exquisite Non-Veg Platter. This tantalizing assortment of premium meats and succulent bites is a carnivore's dream come true. Carefully curated by our culinary experts, the platter showcases a symphony of flavors, from perfectly grilled chicken skewers to juicy steak bites, all expertly seasoned to perfection. Complemented by an array of delectable dipping sauces and accompaniments, this platter promises an unforgettable dining experience. Whether you're sharing with friends, celebrating a special occasion, or simply craving a hearty meaty feast, our Exquisite Non-Veg Platter is the ultimate choice. Indulge your carnivorous cravings today and savor the rich flavors of our non-veg platter."
     },
     {
       "id": 2,
       "image": "https://img.freepik.com/premium-photo/food-photography_841014-8181.jpg",
-      "name": "Cheese Cake",
+      "name": "Decadent Cheesecake Delight",
       "Price": "Rs 600",
-      "Recipe": ""
+      "Recipe": "",
+      "Desc": "Satisfy your sweet cravings with our Decadent Cheesecake Delight. This creamy, dreamy masterpiece is a slice of pure indulgence. Crafted with love and precision, our cheesecake features a velvety smooth, melt-in-your-mouth texture that's simply irresistible. The rich, luscious flavor of our cheesecake is complemented by a buttery graham cracker crust, creating the perfect balance of sweet and savory. Whether you're celebrating a special occasion or simply treating yourself, our Decadent Cheesecake Delight is the ultimate dessert experience. Take a forkful of happiness today and let the creamy goodness of our cheesecake enchant your taste buds."
     },
     {
       "id": 3,
       "image": "https://img.freepik.com/premium-photo/indian-lunch-dinner-main-course-food-group-includes-paneer-butter-masala-dal-makhani-palak-paneer-roti-rice-etc-selective-focus_466689-6854.jpg?size=626&ext=jpg&ga=GA1.1.627066378.1692263223&semt=ais",
-      "name": "Veg Platter",
+      "name": "Deluxe Vegetarian Platter",
       "Price": "Rs 900",
-      "Recipe": ""
+      "Recipe": "",
+      "Desc": "Indulge in a delightful culinary journey with our Deluxe Vegetarian Platter, a vibrant medley of seasonal vegetables prepared to perfection by our skilled chefs. From crisp, garden-fresh salads to tender roasted vegetables, each bite is a symphony of natural flavors enhanced with our secret blend of herbs and spices. Whether you're a vegetarian enthusiast or seeking a healthier option, this platter offers a satisfying and diverse dining experience, perfect for sharing with loved ones or enjoying as a solo meal. Elevate your dining experience today and celebrate the beauty of vegetables with our Deluxe Vegetarian Platter."
     },
     {
       "id": 4,
       "image": "https://img.freepik.com/free-photo/close-up-delicious-asian-food_23-2150535858.jpg",
-      "name": "Salad",
+      "name": "Fresh and Vibrant Salad Selection",
       "Price": "Rs 400",
-      "Recipe": ""
+      "Recipe": "",
+      "Desc": "Elevate your taste buds with our Fresh and Vibrant Salad Selection. Bursting with the natural goodness of crisp, locally-sourced ingredients, our salads are a refreshing culinary journey that will leave you feeling invigorated and satisfied. From classic garden salads brimming with colorful veggies to exotic creations featuring premium ingredients, each bowl is a harmonious blend of flavors, textures, and nutrients. Our commitment to quality shines through in every bite, as we prepare our salads with the utmost care and attention to detail. Whether you're seeking a light and healthy option, a palate-cleansing starter, or a full meal in itself, our Fresh and Vibrant Salad Selection has something for every discerning palate. Experience the joy of wholesome, flavorful salads today and discover a world of freshness on your plate."
     },
     {
       "id": 5,
       "image": "https://img.freepik.com/free-photo/close-up-delicious-asian-food_23-2150535862.jpg",
-      "name": "Spicy Shrimp",
+      "name": "Sizzling Spicy Shrimp Sensation",
       "Price": "Rs 1200",
-      "Recipe": ""
+      "Recipe": "",
+      "Desc": "Prepare for a taste bud explosion with our Sizzling Spicy Shrimp Sensation. These succulent shrimp are marinated in a secret blend of spices that deliver the perfect balance of heat and flavor. Grilled to perfection, each shrimp is a juicy, mouthwatering delight that packs a spicy punch. Whether you're a spice enthusiast or simply looking to add some zest to your meal, our Sizzling Spicy Shrimp Sensation will ignite your culinary senses. Perfect as an appetizer, main course, or even a delightful addition to your favorite dishes, these shrimp are sure to leave you craving for more. Dive into the fiery world of flavor and indulge in the thrill of our Sizzling Spicy Shrimp Sensation today."
     }
   ]
 }

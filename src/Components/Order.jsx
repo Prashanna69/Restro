@@ -17,7 +17,6 @@ import React from "react";
 
 import { CiShoppingCart } from "react-icons/ci";
 
-import Alert from "./Alert";
 import { NavLink } from "react-router-dom";
 
 export default function Order() {

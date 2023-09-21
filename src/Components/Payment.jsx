@@ -1,6 +1,5 @@
 import { Button, Flex } from "@chakra-ui/react";
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
 
 export default function Payment() {
   const [value, setValue] = useState("");

@@ -25,6 +25,7 @@ export default function Checkout() {
           <Box
             bg="#4b4b4b"
             minH="auto"
+            mt="5rem"
             p="2rem 3rem"
             color="whitesmoke"
             borderRadius="2rem"
