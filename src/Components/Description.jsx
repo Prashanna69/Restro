@@ -32,8 +32,8 @@ export default function Description() {
       return (
         <>
           <Box key={menu.id}>
-            <Heading as="h1" ml="1rem">
-              {menu?.name}
+            <Heading as="h1" ml="1rem" minW="20rem">
+              {menus?.name}
             </Heading>
             <Image
               objectFit="cover"
@@ -44,7 +44,7 @@ export default function Description() {
             />
           </Box>
           <Box minH="30rem" p="2rem 3rem" display="flex" alignItems="center">
-            <List fontSize="2rem">
+            <List fontSize="1rem">
               <Flex flexDir="column" gap="2rem" mt="2rem">
                 <ListItem>Name:</ListItem>
                 <ListItem>Price:</ListItem>
@@ -60,11 +60,11 @@ export default function Description() {
             alignItems="center"
             position="relative"
           >
-            <List fontSize="2rem" w="15rem">
+            <List fontSize="1rem" w="15rem">
               <Flex flexDir="column" gap="2rem" mt="2rem">
-                <ListItem>Dummy Name</ListItem>
-                <ListItem>Dummy Price</ListItem>
-                <ListItem>Dummy Name</ListItem>
+                <ListItem>{menus.name}</ListItem>
+                <ListItem>{menus.Price}</ListItem>
+                <ListItem>{menus.Desc}</ListItem>
                 <ListItem>
                   <Flex align="center" gap="2px">
                     <Button
