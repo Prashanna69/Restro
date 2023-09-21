@@ -13,9 +13,7 @@ export default function Detail() {
           color="whiteAlpha.700"
           mt="5rem"
         >
-          <SimpleGrid templateColumns="repeat(3,1fr)" spacing="0.5em">
-            <Description />
-          </SimpleGrid>
+          <Description />
         </Box>
       </Box>
     </>

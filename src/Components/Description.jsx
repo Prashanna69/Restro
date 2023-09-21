@@ -7,6 +7,7 @@ import {
   ListItem,
   Button,
   Input,
+  Text,
 } from "@chakra-ui/react";
 import { useState } from "react";
 import { useLoaderData } from "react-router-dom";
@@ -31,42 +32,43 @@ export default function Description() {
     menu.map((menus) => {
       return (
         <>
-          <Box key={menu.id}>
-            <Heading as="h1" ml="1rem" minW="20rem">
-              {menus?.name}
-            </Heading>
-            <Image
-              objectFit="cover"
-              src="https://img.freepik.com/premium-photo/food-photography_841014-8181.jpg"
-              maxH={{ base: "20rem", lg: "30rem", sm: "20rem" }}
-              borderRadius="2rem"
-              mt="2rem"
-            />
-          </Box>
-          <Box minH="30rem" p="2rem 3rem" display="flex" alignItems="center">
-            <List fontSize="1rem">
-              <Flex flexDir="column" gap="2rem" mt="2rem">
-                <ListItem>Name:</ListItem>
-                <ListItem>Price:</ListItem>
-                <ListItem>Description:</ListItem>
-                <ListItem>Quantity:</ListItem>
-              </Flex>
-            </List>
-          </Box>
-          <Box
-            minH="30rem"
-            p="2rem 3rem"
-            display="flex"
-            alignItems="center"
-            position="relative"
-          >
-            <List fontSize="1rem" w="15rem">
-              <Flex flexDir="column" gap="2rem" mt="2rem">
-                <ListItem>{menus.name}</ListItem>
-                <ListItem>{menus.Price}</ListItem>
-                <ListItem>{menus.Desc}</ListItem>
-                <ListItem>
-                  <Flex align="center" gap="2px">
+          <Flex key={menu.id}>
+            <Box>
+              <Heading as="h1" ml="1rem" minW="20rem">
+                {menus?.name}
+              </Heading>
+              <Image
+                objectFit="cover"
+                position="center"
+                src={menus?.image}
+                maxH={{ base: "20rem", lg: "30rem", sm: "20rem" }}
+                borderRadius="2rem"
+                mt="2rem"
+              />
+            </Box>
+            <Box
+              minH="30rem"
+              mt="5rem"
+              p="2rem 1rem"
+              display="flex"
+              alignItems="center"
+            >
+              <Flex flexDir="column" gap="2rem" mt="2rem" fontSize="1.3rem">
+                <Flex gap="3.4rem" align="center">
+                  <Text>Name:</Text>
+                  {menus.name}
+                </Flex>
+                <Flex gap="4rem" align="center">
+                  <Text>Price:</Text>
+                  {menus.Price}
+                </Flex>
+                <Flex gap="1rem" textAlign="left">
+                  Description:<Text as="span">{menus.Desc}</Text>
+                </Flex>
+
+                <Flex gap="2rem" align="center">
+                  Quantity:{" "}
+                  <Flex align="center" gap="3px">
                     <Button
                       fontSize="2rem"
                       colorScheme="whiteAlpha"
@@ -79,6 +81,9 @@ export default function Description() {
                       maxW="4rem"
                       value={value}
                       disabled
+                      bg="#111"
+                      fontFamily="bold"
+                      color="orange.200"
                       textAlign="center"
                     />
                     <Button
@@ -89,18 +94,15 @@ export default function Description() {
                       +
                     </Button>
                   </Flex>
-                </ListItem>
+                </Flex>
+                <Flex justify="flex-end">
+                  <Button colorScheme="orange" mt="1rem">
+                    Confirm
+                  </Button>
+                </Flex>
               </Flex>
-              <Button
-                colorScheme="orange"
-                position="absolute"
-                mt="2rem"
-                ml="7rem"
-              >
-                Confirm
-              </Button>
-            </List>
-          </Box>
+            </Box>
+          </Flex>
         </>
       );
     })
