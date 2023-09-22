@@ -18,6 +18,7 @@ import React from "react";
 import { CiShoppingCart } from "react-icons/ci";
 
 import { NavLink } from "react-router-dom";
+import OrderCard from "./OrderCard";
 
 export default function Order() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -44,6 +45,7 @@ export default function Order() {
           <DrawerHeader as="h2">Your order</DrawerHeader>
           <DrawerBody>
             <Text>Your Cart:</Text>
+            <OrderCard />
           </DrawerBody>
           <Divider />
           <DrawerFooter>
