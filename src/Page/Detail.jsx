@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, Image, SimpleGrid } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import Description from "../Components/Description";
 
 export default function Detail() {
